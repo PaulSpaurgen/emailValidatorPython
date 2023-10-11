@@ -36,7 +36,7 @@ def get_items():
     server.set_debuglevel(0)
 
     email = "gspaurgen@gmail.com"
-    password = "pasj78tt5u@G"
+    password = "ajce tryf cthn phno"
 
     print( "server before login ====>",server)
 
@@ -45,10 +45,14 @@ def get_items():
 
     print( "server after login ====>",server)
 
-
+   
     # SMTP Conversation
     server.connect(mxRecord)
+
+    print( "server after mx ====>",server)
     server.helo(host)
+    print( "server after helo ====>",server)
+
     server.mail('gspaurgen@gmail.com')
 
     print( "server after login connect ====>",server)
