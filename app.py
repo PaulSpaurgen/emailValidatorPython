@@ -38,7 +38,12 @@ def get_items():
     email = "gspaurgen@gmail.com"
     password = "ajce tryf cthn phno"
 
+    print( "server before login ====>",server)
+
+
     server.login(email, password)
+
+    print( "server after login ====>",server)
 
 
     # SMTP Conversation
