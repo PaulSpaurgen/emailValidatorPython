@@ -50,10 +50,13 @@ def get_items():
     server.connect(mxRecord)
     server.helo(host)
     server.mail('gspaurgen@gmail.com')
+
+    print( "server after login connect ====>",server)
     code, message = server.rcpt(str(addressToVerify))
+    print("code===>",code,"message==>",message)
     server.quit()
 
-    print("code===>",code,"message==>",message)
+    
 
 # Assume 250 as Success
     isValid = False
