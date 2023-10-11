@@ -36,7 +36,7 @@ def get_items():
     server.set_debuglevel(0)
 
     email = "gspaurgen@gmail.com"
-    password = "ajce tryf cthn phno"
+    password = "pasj78tt5u@G"
 
     print( "server before login ====>",server)
 
